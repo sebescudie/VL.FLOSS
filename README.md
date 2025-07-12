@@ -1,13 +1,13 @@
 # VL.FLOSS
 
 A vvvv wrapper for [FLOSS, the FLARE Obfuscated String Solver](https://github.com/mandiant/flare-floss). 
-This library will give you a convenient `FLOSS` node that will let you run `floss.exe` from your patch and get the analysis results as a string.
+This library will give you a convenient `FLOSS` node that will let you run `floss.exe` on a binary from your patch and get the analysis results as a string.
 
 ## What is FLOSS?
 
 As per FLOSS' repository README, "The FLARE Obfuscated String Solver (FLOSS, formerly FireEye Labs Obfuscated String Solver) uses advanced static analysis techniques to automatically extract and deobfuscate all strings from malware binaries. You can use it just like `strings.exe` to enhance the basic static analysis of unknown binaries."
 
-In other words, it's `strings.exe` but better.
+In other words, it's [`strings.exe`](https://learn.microsoft.com/en-us/sysinternals/downloads/strings) but better.
 
 ## Usage
 
