@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="DDRjQdnEbXePERf8uzSUOr" LanguageVersion="2025.7.0-0402-gd84c627862" Version="0.128">
-  <NugetDependency Id="IO4ocKAvaGrMuROx8SmPV1" Location="VL.CoreLib" Version="2025.7.0-0402-gd84c627862" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="DDRjQdnEbXePERf8uzSUOr" LanguageVersion="2025.7.1-0084-ga7be0d05a8" Version="0.128">
+  <NugetDependency Id="IO4ocKAvaGrMuROx8SmPV1" Location="VL.CoreLib" Version="2025.7.1-0084-ga7be0d05a8" />
   <Patch Id="RekhJGw6J5mMdkybVlDT7W">
     <Canvas Id="KPzLRS6LOiRMJPZoTut68x" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -39,14 +39,13 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="APVssd42D55PWZGZtvkMhY" Comment="Binary" Bounds="146,101,229,15" ShowValueBox="true" isIOBox="true" Value="">
+          <Pad Id="APVssd42D55PWZGZtvkMhY" Comment="Binary" Bounds="146,101,229,15" ShowValueBox="true" isIOBox="true" Value="C:\Users\seb\Downloads\mal.exe">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="BxeEVqXXQaCOXEHla6tqaD" Comment="Status" Bounds="173,475,346,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="Nrq6Ik4trhBOBfF8pKetc8" Comment="Is Running" Bounds="226,341,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Ue1taALPsu5LzsKdjVVKoN" Comment="" Bounds="146,506,374,354" ShowValueBox="true" isIOBox="true" />
           <Overlay Id="DrxHDQfKgDxOE9XfT5fi4x" Name="" Bounds="118,60,326,95" />
           <Pad Id="OOF4nkdTSOlQZWjxDvI1eH" Bounds="173,131,217,19" ShowValueBox="true" isIOBox="true" Value="Path to the file you want to analyze.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -85,6 +84,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="F0W5fqJSJM7POdy9FHrQ4C" Comment="" Bounds="146,520,140,15" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="GRjjSgZyx72OQEDMrNzFJY" Name="Create" />
         <Patch Id="TEj4wQ9kWd7NLYcveuFjY5" Name="Update" />
@@ -95,10 +95,10 @@
         <Link Id="O3XPnn9VtdGPdXzfhBnrjU" Ids="APVssd42D55PWZGZtvkMhY,Ayb8f24rXPfO71BMVsbhxN" />
         <Link Id="KK2bsaOVpdmME5KajQZ5XJ" Ids="Ar0mPUiQQltNDI7d9CMIvi,BxeEVqXXQaCOXEHla6tqaD" />
         <Link Id="TBPIZeOYUmfMot8FDQ4YHZ" Ids="HO0v7WSmv6UPBIds4WZXPq,Nrq6Ik4trhBOBfF8pKetc8" />
-        <Link Id="C1OAgFVGYecLOL2GNUyYJD" Ids="A6Wh6u2SvveNXcdtUkCu2s,Ue1taALPsu5LzsKdjVVKoN" />
         <Link Id="K6mVCQe5PUeNf7RLY9qzuy" Ids="OZFUjVKlMOiNZUgiW74299,S59AI83QuEoOoImMZf8Iny" />
         <Link Id="LjmaemLek6xOgcZ8g6dAlc" Ids="JNWppzkyhn6O1s6SxqbuzL,HQHHczE98s6QTgzHL4Xk5w" />
         <Link Id="LWkEeQNRTRZLBcKfpArdd1" Ids="ECSuZn4XJhBMBzsUSDm8m7,VPFNLWANNITN9KX0nVbBYU" />
+        <Link Id="BwHxz8BXXX9MOCeUxw4uX1" Ids="A6Wh6u2SvveNXcdtUkCu2s,F0W5fqJSJM7POdy9FHrQ4C" />
       </Patch>
     </Node>
   </Patch>
