@@ -2041,6 +2041,11 @@
         <p:NodeReference>
           <Choice Kind="RecordDefinition" />
         </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="FLOSS" LastDependency="VL.FLOSS.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IFlossString" />
+          </TypeReference>
+        </p:Interfaces>
         <Patch Id="UZkHfmq3qyiMP8eRYvappf">
           <Canvas Id="Ei1Lz0f0P1lNZHIlZTYcO6" CanvasType="Group">
             <Pad Id="DyNGrVUzJ7YNujVH9TT0w0" SlotId="DYrsWFWvIq1QQXhUPICxbn" Bounds="314,249" />
@@ -2243,6 +2248,7 @@
                 <Link Id="G4xCANxu8N4QPlKplqyGtU" Ids="H8Aqi0yXrAwOfLOaOt5Til,IERA02N5nvFOgp2FoSCDB9" IsHidden="true" />
               </Patch>
             </Node>
+            <ControlPoint Id="MQFMMGRYu91NOGeJSUuS7L" Bounds="924,321" />
           </Canvas>
           <Patch Id="ADxk14Iwqu1NckffE4mfdT" Name="Create">
             <Pin Id="C85z5tIgNanPZBH9h8GLTM" Name="Address" Kind="InputPin" />
@@ -2256,6 +2262,7 @@
             <Fragment Id="TjPILy6UvUtQL7oz4a9jW7" Patch="ADxk14Iwqu1NckffE4mfdT" Enabled="true" />
             <Fragment Id="ImB1UcAIvLlNpkFjAm2hq6" Patch="PrCq9PTg7TsL3wzs5F34VO" />
             <Fragment Id="S9wwWrnNl31OAb3niMdB23" Patch="SPJ22MqJkWMQLwhGcR6iaf" />
+            <Fragment Id="T441QBAaInsMlTTfpsLhNh" Patch="A97R4dBkYdYPUCH3t4Q9eU" />
           </ProcessDefinition>
           <Slot Id="DYrsWFWvIq1QQXhUPICxbn" Name="Address">
             <p:TypeAnnotation p:Type="TypeReference">
@@ -2319,6 +2326,11 @@
           <Link Id="CVNCGcz6QbWNF2RtjWH338" Ids="LoD055TFum0OCmvMza2cbc,DyNGrVUzJ7YNujVH9TT0w0" />
           <Link Id="SMye8ocKsyIMoj4AWwtRrk" Ids="Jr37NF9anS2MOhh6gmmrwg,PNkDHLDgJtwLGqaDaar2cz" IsHidden="true" />
           <Link Id="UvsGQE8p3KNM8z9jvvfFbj" Ids="DyNGrVUzJ7YNujVH9TT0w0,Jr37NF9anS2MOhh6gmmrwg" />
+          <Link Id="BhPNjGcnNteOIIHi3NE6L4" Ids="FhuOGkdMFgGOAbDpgNMCWp,MQFMMGRYu91NOGeJSUuS7L" />
+          <Patch Id="A97R4dBkYdYPUCH3t4Q9eU" Name="String" ParticipatingElements="BhPNjGcnNteOIIHi3NE6L4">
+            <Pin Id="NHSqGSEl61zQaV2zctM8mT" Name="String" Kind="OutputPin" />
+          </Patch>
+          <Link Id="PhlzHQtJVEvQPgK51QledC" Ids="MQFMMGRYu91NOGeJSUuS7L,NHSqGSEl61zQaV2zctM8mT" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -2347,6 +2359,11 @@
         <p:NodeReference>
           <Choice Kind="RecordDefinition" />
         </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="FLOSS" LastDependency="VL.FLOSS.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IFlossString" />
+          </TypeReference>
+        </p:Interfaces>
         <Patch Id="DCg2GBnduflQZbJyknzuI3">
           <Canvas Id="Pgs0nYFOTeWOSdWnwBaKx4" CanvasType="Group">
             <Pad Id="IH3DA82BlBaPvglizlayrU" SlotId="Fk4dnMIORVgPxkjQhXenBy" Bounds="175,180" />
@@ -2605,6 +2622,7 @@
                 <Link Id="A0PcrWP7cHVOtV85uUsSio" Ids="KplHmcMIsS5NCqWx85SmG8,GCfZBQX3syCLVGFpd3XmrK" />
               </Patch>
             </Node>
+            <ControlPoint Id="UmDEvm0C1VoNOK5J53nmkh" Bounds="1047,210" />
           </Canvas>
           <Patch Id="Jbb6abCFU9fOzx0gxCswcO" Name="Create">
             <Pin Id="QmPdYibCsf0PQ15ABcNpek" Name="Encoding" Kind="InputPin" />
@@ -2620,6 +2638,7 @@
             <Fragment Id="ElUUChg6kVNMREdCzC5FVJ" Patch="Jbb6abCFU9fOzx0gxCswcO" Enabled="true" />
             <Fragment Id="T3PXdN6yT04O9yeXU55vze" Patch="Bx2ryevDk0GMhI5h6ezdxy" />
             <Fragment Id="Hjx5b2f8l2OPBxsB2xVIEc" Patch="K240vIDCs8xPaEEnV9IzSf" />
+            <Fragment Id="IWFS3blTxBzNX0KSpXS5zR" Patch="OcR1BDMuD8BPuJooX6MnNh" />
           </ProcessDefinition>
           <Slot Id="Fk4dnMIORVgPxkjQhXenBy" Name="Encoding">
             <p:TypeAnnotation p:Type="TypeReference">
@@ -2703,6 +2722,11 @@
           <Link Id="DFE6JCT8jWTOtQzYIr8BUf" Ids="DVMy4CY6DkaLjhgbMoIvE1,KQmJxdZmO8GQApi7Yuq9Np" />
           <Link Id="K3Ma9v3aIp3L8FCrpfskjI" Ids="O1NOPZwhxDzO27WYe3AvD7,R9hjXtYokLqMV8g7bKJBH7" IsHidden="true" />
           <Link Id="FPX07KKomcIPhtlhmyMQGW" Ids="KQmJxdZmO8GQApi7Yuq9Np,O1NOPZwhxDzO27WYe3AvD7" />
+          <Link Id="MBHb9CRZD3hOCBvFoMl5c9" Ids="NSN5BcGd3TVOQppRlmOCOW,UmDEvm0C1VoNOK5J53nmkh" />
+          <Patch Id="OcR1BDMuD8BPuJooX6MnNh" Name="String" ParticipatingElements="MBHb9CRZD3hOCBvFoMl5c9">
+            <Pin Id="ATov0qcBY9tPwqjd6KiZBI" Name="String" Kind="OutputPin" />
+          </Patch>
+          <Link Id="UAydY8iXqqTL9vwuW60GGa" Ids="UmDEvm0C1VoNOK5J53nmkh,ATov0qcBY9tPwqjd6KiZBI" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -2714,6 +2738,11 @@
         <p:NodeReference>
           <Choice Kind="RecordDefinition" />
         </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="FLOSS" LastDependency="VL.FLOSS.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IFlossString" />
+          </TypeReference>
+        </p:Interfaces>
         <Patch Id="HkZAPy9rnoHNqL7He8nEdl">
           <Canvas Id="FOCEYTKfWjpOBcjhZffFex" CanvasType="Group">
             <Pad Id="Jjo9UUGIF14L4VHB4GlJ4Z" SlotId="AbzNGHUTsX2OzqASqkU2Bx" Bounds="441,450" />
@@ -2832,6 +2861,7 @@
                 <Link Id="QqCWyD6rpRXLw4t9ezeTta" Ids="UdBhgSZx5dYLzxmIFfYG8B,P1DmQMnECByPrn9yGQUc1F" />
               </Patch>
             </Node>
+            <ControlPoint Id="U31yejRaZWpPp6THwY39Ip" Bounds="698,490" />
           </Canvas>
           <Patch Id="Pu39JeQV7McMv6gO6mrLTL" Name="Create">
             <Pin Id="JZy0A9b7NovNKVbozWOXyM" Name="Encoding" Kind="InputPin" />
@@ -2847,6 +2877,7 @@
             <Fragment Id="QTuvXcVfV1ELABDh9HHmvH" Patch="Pu39JeQV7McMv6gO6mrLTL" Enabled="true" />
             <Fragment Id="SLN4xV2AVtRPlKSjf0ZKAb" Patch="GQhXp2khh78ORzN1InvleU" />
             <Fragment Id="ODJizStCgKbLTAn2guj9PU" Patch="If98HExJdPsNDBvfVZus9A" />
+            <Fragment Id="Ak7joL4H0QyQaU6GgFPeJQ" Patch="DfxKXzpkqgONDI9VJLLiCo" />
           </ProcessDefinition>
           <Slot Id="AbzNGHUTsX2OzqASqkU2Bx" Name="Encoding">
             <p:TypeAnnotation p:Type="TypeReference">
@@ -2880,6 +2911,11 @@
           <Link Id="PlVYn1IZv8nLAXjF1M5dkU" Ids="D6zY7R2WtNcNju6Gnhu99f,AK1QdvEH1dCMjo6mn0N2IA" />
           <Link Id="IpUcJXu49srLrLBcnzodvP" Ids="PAmMvNVFmiyLPUiXp4FYiG,Lx3WtZwqUNGLHRO2GcCR4j" IsHidden="true" />
           <Link Id="BNR43dCgyFIPIe0wKEWTqK" Ids="AK1QdvEH1dCMjo6mn0N2IA,PAmMvNVFmiyLPUiXp4FYiG" />
+          <Link Id="AviqZ7dsxA0LwAPi97f27R" Ids="AK1QdvEH1dCMjo6mn0N2IA,U31yejRaZWpPp6THwY39Ip" />
+          <Link Id="GAjMlUOjmEzLUVPYjB23Qz" Ids="U31yejRaZWpPp6THwY39Ip,Qwdj66QXor1NKW5nGXUUeV" IsHidden="true" />
+          <Patch Id="DfxKXzpkqgONDI9VJLLiCo" Name="String" ParticipatingElements="AviqZ7dsxA0LwAPi97f27R">
+            <Pin Id="Qwdj66QXor1NKW5nGXUUeV" Name="String" Kind="OutputPin" />
+          </Patch>
         </Patch>
       </Node>
       <!--
@@ -2891,6 +2927,11 @@
         <p:NodeReference>
           <Choice Kind="RecordDefinition" />
         </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="FLOSS" LastDependency="VL.FLOSS.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IFlossString" />
+          </TypeReference>
+        </p:Interfaces>
         <Patch Id="BHhSCKqtq6dOWmIVzXquTg">
           <Canvas Id="DEGKh5Dl36wOr8Bv0jVJ8X" CanvasType="Group">
             <Pad Id="JjuTwWWUSOeQAxrvUeX1aH" SlotId="D6smVk6anlrLjubVdo1Vjb" Bounds="175,180" />
@@ -3149,6 +3190,7 @@
                 <Link Id="FKnNnV5OqovLfQo1uex6PV" Ids="PutANA2iSWdOvsX0tlmTQX,C8SXEOoE1JmNNNtsGewjcg" />
               </Patch>
             </Node>
+            <ControlPoint Id="DDNueCzwqXiLoG21i38Rto" Bounds="1055,210" />
           </Canvas>
           <Patch Id="S6pGGxviFk4M6FZfaZO7hJ" Name="Create">
             <Pin Id="UhdLUc9aWtLNGIWTkkZNVL" Name="Encoding" Kind="InputPin" />
@@ -3164,6 +3206,7 @@
             <Fragment Id="LU7mr1CdObnO22Z0tmdKhE" Patch="S6pGGxviFk4M6FZfaZO7hJ" Enabled="true" />
             <Fragment Id="Im1R84n3qemOctlfpPJ4gf" Patch="D1Bbt0LrqQpM9vTlORf2jZ" />
             <Fragment Id="JxTLYJw1tonMixFByZQhYa" Patch="Bv4folfa3acNyxZCZzPIpe" />
+            <Fragment Id="DiwqCPB2JM9Maw5prwIryR" Patch="KH1mN6CP7LLLkCyXEKSJcC" />
           </ProcessDefinition>
           <Slot Id="D6smVk6anlrLjubVdo1Vjb" Name="Encoding">
             <p:TypeAnnotation p:Type="TypeReference">
@@ -3247,6 +3290,42 @@
           <Link Id="ILLk2SfRGncMpgkwZUUYMI" Ids="J6i8ST0UC3mP4A27VCrfxH,Gm78iDviUEDPYrWtubETj6" />
           <Link Id="EHgzGYm1SRrODNjNMFug3j" Ids="D8Ps6fU7i82OiMR2CUhlZ1,C4DMHNmDmJhLkhx0PGTTMF" IsHidden="true" />
           <Link Id="NfjSZYVRWHvPDqL22QMDkX" Ids="Gm78iDviUEDPYrWtubETj6,D8Ps6fU7i82OiMR2CUhlZ1" />
+          <Link Id="H2pePC4DCBTLebnyBFnuVo" Ids="FxIgJrtM7MpM5DM91OpKGW,DDNueCzwqXiLoG21i38Rto" />
+          <Link Id="VoqyRnSXaM1MSyg5GU2g8V" Ids="DDNueCzwqXiLoG21i38Rto,FCnAnHv1Jc6QSFTJR7Rvg0" IsHidden="true" />
+          <Patch Id="KH1mN6CP7LLLkCyXEKSJcC" Name="String" ParticipatingElements="H2pePC4DCBTLebnyBFnuVo">
+            <Pin Id="FCnAnHv1Jc6QSFTJR7Rvg0" Name="String" Kind="OutputPin" />
+          </Patch>
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ IFlossString ************************
+
+-->
+      <Node Name="IFlossString" Bounds="680,641" Id="UWayVP9nBJgOCZnNFWO5Lp">
+        <p:NodeReference>
+          <Choice Kind="InterfaceDefinition" />
+        </p:NodeReference>
+        <Patch Id="Cu5ZmLZsXQ1QBejFaHfAWG">
+          <Canvas Id="Aej6zPMn2xmQIbIqJMmtWh" CanvasType="Group">
+            <ControlPoint Id="NWMWW6vMCm4Los0kgvQ6Mk" Bounds="299,270" />
+          </Canvas>
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="QC1rxjqjujnMCsDXdwbQ21" IsHidden="true">
+            <Fragment Id="FUkFWxf49RhLrmjjGMCe8t" Patch="Vx9OC9no3WNLR1yp7HFtrH" />
+          </ProcessDefinition>
+          <Patch Id="Vx9OC9no3WNLR1yp7HFtrH" Name="String">
+            <Pin Id="DfqfNU1NScIO1tr2PkwwOF" Name="String" Kind="OutputPin">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Link Id="V6eiZHTUMuIOT4sBNAL95t" Ids="NWMWW6vMCm4Los0kgvQ6Mk,DfqfNU1NScIO1tr2PkwwOF" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
