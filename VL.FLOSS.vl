@@ -2217,12 +2217,28 @@
         <p:NodeReference>
           <Choice Kind="RecordDefinition" />
         </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="FLOSS" LastDependency="VL.FLOSS.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IFlossString" />
+          </TypeReference>
+        </p:Interfaces>
         <Patch Id="CzT5h8jyj1EP5HVGRUQ6Pt">
-          <Canvas Id="GRptrHCGgWlQBtoygjvxfG" CanvasType="Group" />
+          <Canvas Id="GRptrHCGgWlQBtoygjvxfG" CanvasType="Group">
+            <ControlPoint Id="OKwD5hGM0YEPn2Qs07tsdV" Bounds="418,310" />
+          </Canvas>
           <Patch Id="FgmANEAqBkeMEtBHU0YJIB" Name="Create" />
           <ProcessDefinition Id="VtkYLkV6Xp5OWCENcbTuHS" IsHidden="true">
             <Fragment Id="VHwzUWVsQifOoeHkgsqOkk" Patch="FgmANEAqBkeMEtBHU0YJIB" Enabled="true" />
+            <Fragment Id="MUuvyUvT3CfPwkzxHPKYLl" Patch="MJSKPZNoxaGMX5FffSfGi2" />
           </ProcessDefinition>
+          <Link Id="JxNWO7Ur6R6PMZXO6F8TAO" Ids="OKwD5hGM0YEPn2Qs07tsdV,ExcqkT1Qf7ZO3iQ7CIlnn3" IsHidden="true" />
+          <Patch Id="MJSKPZNoxaGMX5FffSfGi2" Name="String">
+            <Pin Id="ExcqkT1Qf7ZO3iQ7CIlnn3" Name="String" Kind="OutputPin">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
         </Patch>
       </Node>
       <!--
